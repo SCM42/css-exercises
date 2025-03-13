@@ -7,9 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
 }
 
 a:link {
@@ -20,6 +17,9 @@ a:link {
 .content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
   gap: 8px;
 }
 
@@ -34,7 +34,6 @@ a:link {
 .header, .footer {
   display: flex;
   justify-content: space-between;
-  width: 100vw;
   padding: 10px;
 }
 
